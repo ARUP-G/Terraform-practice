@@ -1,5 +1,5 @@
-# Terraform Configuration for AWS Infrastructure
-This repository contains Terraform configuration files to deploy a simple AWS infrastructure that includes an EC2 instance, an S3 bucket for storing the Terraform state file, and a DynamoDB table for state locking.
+# Terraform Configuration for AWS Infrastructure (Backend & tf.lock logic)
+This module contains Terraform configuration files to deploy a simple AWS infrastructure that includes an EC2 instance, an S3 bucket for storing the Terraform state file, and a DynamoDB table for state locking.
 
 ## File Structure
 - **main.tf**: Contains the main Terraform configuration for the AWS provider, resources such as an EC2 instance, S3 bucket, and DynamoDB table.
